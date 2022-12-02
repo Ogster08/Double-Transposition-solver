@@ -1,0 +1,15 @@
+C:\Users\olive\Documents\GitHub\Double-Transposition-solver\Double-Transposition-solver\bin\Debug\net6.0\Double-Transposition-solver.exe
+C:\Users\olive\Documents\GitHub\Double-Transposition-solver\Double-Transposition-solver\bin\Debug\net6.0\Double-Transposition-solver.deps.json
+C:\Users\olive\Documents\GitHub\Double-Transposition-solver\Double-Transposition-solver\bin\Debug\net6.0\Double-Transposition-solver.runtimeconfig.json
+C:\Users\olive\Documents\GitHub\Double-Transposition-solver\Double-Transposition-solver\bin\Debug\net6.0\Double-Transposition-solver.dll
+C:\Users\olive\Documents\GitHub\Double-Transposition-solver\Double-Transposition-solver\bin\Debug\net6.0\Double-Transposition-solver.pdb
+C:\Users\olive\Documents\GitHub\Double-Transposition-solver\Double-Transposition-solver\obj\Debug\net6.0\Double-Transposition-solver.csproj.AssemblyReference.cache
+C:\Users\olive\Documents\GitHub\Double-Transposition-solver\Double-Transposition-solver\obj\Debug\net6.0\Double-Transposition-solver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olive\Documents\GitHub\Double-Transposition-solver\Double-Transposition-solver\obj\Debug\net6.0\Double-Transposition-solver.AssemblyInfoInputs.cache
+C:\Users\olive\Documents\GitHub\Double-Transposition-solver\Double-Transposition-solver\obj\Debug\net6.0\Double-Transposition-solver.AssemblyInfo.cs
+C:\Users\olive\Documents\GitHub\Double-Transposition-solver\Double-Transposition-solver\obj\Debug\net6.0\Double-Transposition-solver.csproj.CoreCompileInputs.cache
+C:\Users\olive\Documents\GitHub\Double-Transposition-solver\Double-Transposition-solver\obj\Debug\net6.0\Double-Transposition-solver.dll
+C:\Users\olive\Documents\GitHub\Double-Transposition-solver\Double-Transposition-solver\obj\Debug\net6.0\refint\Double-Transposition-solver.dll
+C:\Users\olive\Documents\GitHub\Double-Transposition-solver\Double-Transposition-solver\obj\Debug\net6.0\Double-Transposition-solver.pdb
+C:\Users\olive\Documents\GitHub\Double-Transposition-solver\Double-Transposition-solver\obj\Debug\net6.0\Double-Transposition-solver.genruntimeconfig.cache
+C:\Users\olive\Documents\GitHub\Double-Transposition-solver\Double-Transposition-solver\obj\Debug\net6.0\ref\Double-Transposition-solver.dll

@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using System.Text;
-using static System.Net.Mime.MediaTypeNames;
 using System.Threading;
 
 namespace Columnar_Transposition_Solver
@@ -72,6 +70,17 @@ namespace Columnar_Transposition_Solver
 
             foreach (IList<int> permutation in permutations)
             {
+                StringBuilder firstPermutation = new StringBuilder();
+                for (int firstD = 0; firstD < text.Length; firstD += keyLength)
+                {
+                    for (int secondD = 0; secondD < keyLength; secondD++)
+                    {
+                        if (firstD + permutation[secondD] >= text.Length) { break; }
+                        firstPermutation.Append(text[firstD + permutation[secondD]]);
+                    }
+                }
+
+                string newText = firstPermutation.ToString();
                 StringBuilder possibleString = new StringBuilder();
                 for (int firstD = 0; firstD < text.Length; firstD += keyLength)
                 {
