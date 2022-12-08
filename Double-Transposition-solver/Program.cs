@@ -71,26 +71,16 @@ namespace Columnar_Transposition_Solver
             foreach (IList<int> permutation in permutations)
             {
                 StringBuilder firstPermutation = new StringBuilder();
-                for (int firstD = 0; firstD < text.Length; firstD += keyLength)
+                for (int increment = 0; increment < text.Length/keyLength; increment++)
                 {
-                    for (int secondD = 0; secondD < keyLength; secondD++)
+                    for (int permIndex = 0; permIndex < keyLength; permIndex++)
                     {
-                        if (firstD + permutation[secondD] >= text.Length) { break; }
-                        firstPermutation.Append(text[firstD + permutation[secondD]]);
+                        if (increment + (text.Length / keyLength * permutation[permIndex]) >= text.Length) { break; }
+                        firstPermutation.Append(text[increment + (text.Length / keyLength * permutation[permIndex])]);
                     }
                 }
 
-                string newText = firstPermutation.ToString();
-                StringBuilder possibleString = new StringBuilder();
-                for (int firstD = 0; firstD < text.Length; firstD += keyLength)
-                {
-                    for (int secondD = 0; secondD < keyLength; secondD++)
-                    {
-                        if (firstD + permutation[secondD] >= text.Length) { break; }
-                        possibleString.Append(text[firstD + permutation[secondD]]);
-                    }
-                }
-                scores.Add(new Tuple<string, Double>(possibleString.ToString(), ngrams.score(possibleString.ToString())));
+                scores.Add(new Tuple<string, Double>(firstPermutation.ToString(), ngrams.score(firstPermutation.ToString())));
             }
             Console.WriteLine(scores.MaxBy(t => t.Item2));
         }
